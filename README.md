@@ -38,7 +38,9 @@ Auf Arch Linux und Manjaro:
 
 Auf Fedora (und RedHat, ScientificLinux, CentOS mit `yum` statt `dnf`):
 
-    $ sudo dnf install make texlive pandoc-pdf pandoc-crossref pandoc-citeproc
+    $ sudo dnf install make texlive pandoc-pdf pandoc-crossref 
+    $ sudo dnf install .... # for pandoc-citeproc support,
+    $ ... # build pandoc-citeproc on your own
     
 Auf Mac mit [Homebrew](https://brew.sh):
 
