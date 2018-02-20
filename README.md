@@ -36,6 +36,10 @@ Auf Arch Linux und Manjaro:
 ( **Pro Tip**: Die Haskell-Dependencies können mit den statisch kompilierten AUR-Paketen
 `pandoc-bin`, `pandoc-crossref-bin` und `pandoc-citeproc-bin` umgangen werden.)
 
+Auf Fedora (und RedHat, ScientificLinux, CentOS mit `yum` statt `dnf`):
+
+    $ sudo dnf install make texlive pandoc-pdf pandoc-crossref pandoc-citeproc
+    
 Auf Mac mit [Homebrew](https://brew.sh):
 
     $ brew install brew-cask make pandoc pandoc-crossref pandoc-citeproc
